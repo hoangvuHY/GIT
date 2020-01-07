@@ -1,0 +1,13 @@
+- working directory : file đang làm việc. file hiện tại. Khi chỉnh sửa trong file hiện tại nó sẽ hiện dòng này
+
+- staging area : Là khi dùng lệnh add nó sẽ đưa vào đây. Khi đưa vào đây là đưa lên git
+
+- gitk : Hiển thị giao diện 
+
+- git repository
+
+
+
+
+
+
