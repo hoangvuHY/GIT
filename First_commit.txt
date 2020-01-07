@@ -1,0 +1,14 @@
+Mở git
+Chạy trong thư mục và gọi: git init
+Gõ: git status, để xem trạng thái
+-git add . : Chuẩn bị đưa lên web git
+- git commit -m "Tên của cái tem đó": Đóng gói các cái đã add và dán cho một tem có tên
+
+
+
+
+
+
+
+
+
