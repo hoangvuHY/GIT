@@ -1,0 +1,5 @@
+git log: xem lịch sử đã commmit gì
+Nhấn chữ Q để thoát khỏi git log
+
+git show + id của commit: Để xem những commit trong 
+git diff (difference): Để xem nội dung của modified
