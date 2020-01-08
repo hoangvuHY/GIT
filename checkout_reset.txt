@@ -1,0 +1,5 @@
+-git checkout + tên file:+) Cho nó trở về trạng thái ban đầu = git restore + tên file
+                         +) Xóa những thay đổi đi
+-git reset HEAD + tên file : Không cho nó vào staging area ( Hiểu về staging area vào trong thuật ngữ trong git) 
+
+
