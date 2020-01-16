@@ -1,0 +1,81 @@
+html {
+    font-size: 12px;
+}
+
+body {
+    /* background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-pure-black-starry-minimalist-dreamy-business-background-starry-skysimpleelegantbusiness-backgrounddream-image_87673.jpg'); */
+    background-image: url('https://live.staticflickr.com/7381/11051939803_941c4f84f0_b.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: brown;
+}
+
+#title {
+    margin: 5rem 0 0 1rem;
+}
+
+#description {
+    padding-top: 0%;
+    font-size: 1.6rem;
+}
+
+#survey-form {
+    color: white;
+    padding: 3rem;
+    margin-left: 26%;
+    text-align: left;
+    display: block;
+    background-color: darkslategray;
+    max-width: 550px;
+
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+
+}
+#div {
+    display: inline-block;
+    margin: 0 2rem 1.25rem auto;
+    padding: 1rem;
+    width: 100%;
+    height: 2.5rem;     
+}
+#email{
+    margin: 0 5rem 1.25rem auto;
+    width: 96%;
+    height: 2rem;
+}
+#name{
+    height: 2rem;    
+    margin: 0px auto 1.25rem auto;
+    width: 96%;
+}
+#number {
+    margin: 0 auto 1.25rem auto;
+    height: 2rem;
+    width: 96%;
+}
+#dropdown{
+    height: 2.5rem;    
+    margin: 0 auto 1.25rem auto;
+    width: 96.5%;
+    line-height: 1.5;
+    font-style: italic;
+    color: black;
+}
+textarea{
+    grid-column: 20;
+    grid-row: 5;
+    font-size: 1.5rem;
+}
+#submit{
+    height: 2.3rem;    
+    margin: 0px 2rem 1.23rem auto;
+    width: 95.5%;
+    background-color: darkmagenta   ;
+    color: white;
+}
