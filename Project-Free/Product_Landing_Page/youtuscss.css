@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    widows: 80%;
+    margin: 0 auto;
+}
+
+body {
+    padding: 1.5rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav#nav-bar ul {
+    display: flex;
+}
+
+nav#nav-bar ul li {
+    margin: 2rem;
+}
+
+nav#nav-bar ul li a {
+    color: #111;
+}
+
+#header-img {
+    width: 15rem;
+    margin-left: -1rem;
+}
+
+@media screen and (max-width: 650px) {
+    header {
+        flex-direction: column;
+    }
+    nav#nav-bar ul {
+        display: block;
+        text-align: center;
+    }
+    nav#nav-bar ul{
+        display: block;
+        text-align: center;
+    }
+    header-img{
+        margin: 1rem 0;
+        text-align: center;
+    }
+}
+.subcribe{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.subcribe input{
+    padding: 3rem;
+    display: block;
+    margin: 0.9 auto;
+}
+
+.subcribe input{
+    padding: 3rem;
+    display: block;
+    margin: 0.9 auto;
+}
+#email{
+    width: 250px;
+}
+
+#input{
+    width: 150px;
+    border: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: yellow;
+}
+
+
+
+
+
