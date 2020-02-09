@@ -1,0 +1,1 @@
+git revert + ID commit: Muốn bỏ commit đi

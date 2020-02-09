@@ -1,0 +1,3 @@
+# Nên sử dụng khi mà chưa có được commit
+# Khi sử dụng cái này nó sẽ bỏ qua ở trong git status
+node_modules/
