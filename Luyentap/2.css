@@ -1,0 +1,14 @@
+.sizeto {
+    font-size: 20px;
+    color: darkred;
+    transition: 0.3s;
+}
+
+.sizeto:hover {
+    font-size: 25px;
+    color: red;
+    padding-left: 10px;
+    padding-top: 10px;
+    opacity: 0.5;
+    transition: 0.3s;
+}

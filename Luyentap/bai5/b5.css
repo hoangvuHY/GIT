@@ -1,0 +1,43 @@
+.tintrai {
+    width: 210px;
+    height: 95px;
+    padding-top: 242px;
+    background-image: url('https://kenh14cdn.com/thumb_w/620/2020/2/8/chipupu830602841328089945736808922003531556676596n-1581151253246628369015.jpg');
+    background-size: 100% 100%;
+    margin-right: 10px;
+    float: left;
+}
+
+.tintrai .tdtt {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 16px;
+    background-color:  #b3000066;
+    font-weight: bold;
+    font-family: monospace;
+    padding: 0 5px;
+    display: block;
+}
+.phai{
+    width: 400px;
+    height: 57px;
+    padding-top: 430px;
+    background-image: url('https://kenh14cdn.com/thumb_w/620/2020/2/8/photo-1-15811656750702035883804.jpg');
+    background-size: 100% 90%;
+    margin-left: 220px;
+}
+.phai .tdtp{
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 16px;
+    background-color:  #b3000066;
+    font-weight: bold;
+    font-family: monospace;
+    padding: 0 5px;
+    display: block;
+}
+.duoi{
+    width: 700px;
+    height: 1000px;
+    display: block;
+}
