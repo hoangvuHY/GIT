@@ -1,11 +1,25 @@
-git banch: xem có những nhánh nào
+Bản chất là đưa đến các nhánh cần làm việc trước khi cho lên github
+
+Tạo ra nhánh mới không ảnh hưởng đến nhánh master
+Dùng để khi  dùng sai thì có thể đi tiếp
+
+
+git branch: xem có những nhánh nào
 git checkout -b feature/tên class : Vừa tạo branch vừa checkout ( Chỉ tạo khi branch chưa tồn tại)
+
 git checkout master: Đi đến nhánh master hiện tại
-git merge : Kéo những thay đổi vào thành một nhánh cây
+git checkout + tên file: Đi đến file hiện tại ( Có thế đến bất kỳ file nào mình muốn)
+
+git merge + tên muốn cho vào master: Kéo những thay đổi vào thành một nhánh cây
+
+master <--- themfile/new-class
+
+
 A <--- B
-git checkout A
-git merge B
+Từng bước để cho feature/dog-class vào master
+git checkout A ( A thường thì là master)
+git merge + tên file muốn cho vào
 master <---- feature/dog-class
 
 
-git branch -d + Tên branch
+git branch -d + Tên branch : Xóa branch vừa dùng 

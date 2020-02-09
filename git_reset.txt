@@ -1,0 +1,12 @@
+Bản chất là chỉnh sửa các thứ mà trước đó ta đã đưa lên github muốn thay đổi chúng
+
+git reset --soft + SHA1 ID ( Trong gitk ): Để quay lại cái commit mình muốn thay đổi ( Màu xanh Làm viêc 
+trong staging area  )
+
+git reset --mixed + SHA1 ID ( Trong gitk ): Để quay lại cái commit mình muốn thay đổi ( Màu đỏ: Làm viêc 
+trong working directory )
+
+git reset --hard + SHA1 ID ( Trong gitk ): Xóa những ID Cần xóa
+
+
+
