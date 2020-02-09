@@ -49,38 +49,36 @@ nav#nav-bar ul li a {
         display: block;
         text-align: center;
     }
-    nav#nav-bar ul {
+    nav#nav-bar ul{
         display: block;
         text-align: center;
     }
-    header-img {
+    header-img{
         margin: 1rem 0;
         text-align: center;
     }
 }
-
-.subcribe {
+.subcribe{
     text-align: center;
     margin: 2rem 0;
 }
 
-.subcribe input {
+.subcribe input{
     padding: 3rem;
     display: block;
     margin: 0.9 auto;
 }
 
-.subcribe input {
+.subcribe input{
     padding: 3rem;
     display: block;
     margin: 0.9 auto;
 }
-
-.subcribe input#email {
+#email{
     width: 250px;
 }
 
-.subcribe input#input {
+#input{
     width: 150px;
     border: none;
     font-size: 1rem;
@@ -88,3 +86,8 @@ nav#nav-bar ul li a {
     font-weight: bold;
     background-color: yellow;
 }
+
+
+
+
+
