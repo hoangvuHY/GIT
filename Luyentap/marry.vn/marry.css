@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tren{
+    width: 700px;
+    height: 40px;
+    border-top: 4px solid #EEEEEE;
+    margin: 10px 0 0 50px;
+    display: inline-block;
+}
+.tdto{
+    font-family: tahoma;
+    color: #EC3D79;
+    font-size: 30px;
+    text-decoration: none;
+    background-image: url('2.png');
+    background-size: 104% 34%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 13px;
+}
+.xt {
+    text-decoration: none;
+    color: #B0A39C;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 255px;
+}
+.xt i{
+    font-size: 13px;
+}
+.xt:hover i{
+    font-size: 13px;
+    color: lightgreen;
+    padding-left: 5px;
+    transition: 0.4s;
+}

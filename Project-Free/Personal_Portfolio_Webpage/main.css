@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-list{
+    height: 50px;
+    position: fixed;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+    background-color: #002b80;
+}
+.nav-list ul{
+    display: flex;
+}
+.nav-list li{
+    list-style: none;
+}
+.nav-list a{
+    text-decoration: none;
+    display: block;
+    font-family: Arial;
+    padding: 0.4rem;
+    color: #fff;
+    font-size: 1.3rem;
+}
+.welcome-section div{
+    margin-top: 60px;
+}
+.welcome-section{
+    height: 625px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: lightblue;
+}
+.welcome-section h1{
+    color: #002b80;
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+}
+.welcome-section p{
+    font-size: 2rem;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+#projects{
+    height: 625px ;
+    background-color: lightpink;
+}
+@media screen and (max-width: 600px) {
+    #profile-link {
+        background-color: blue;
+    }
+}
+/* Style the navigation menu */
+/* 
+.topnav {
+    top: 0;
+    left: 0;
+    height: 200px;
+    overflow: hidden;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+} */
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+
+/* .topnav #myLinks {
+    display: none;
+} */
+
+/* Style navigation menu links */
+/* 
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+} */
+
+/* Style the hamburger menu */
+
+/* .topnav a.icon {
+    background: black;
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 0;
+} */
+
+/* Add a grey background color on mouse-over */
+
+/* Style the active link (or home/logo) */
+
+/* .active {
+    background-color: black;
+    color: white;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Space Mono', monospace;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 25px;
+}
+
+#welcome-section {
+    margin-top: 200px;
+    height: 500px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/17/16/46/star-2651962__340.jpg');
+}
+
+#welcome-section div {
+    padding-left: 35%;
+}
+
+#projects {
+    height: 500px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.profile-links {
+    display: flex;
+}
+
+@media screen and (max-width: 992px) {
+    #profile-links {
+        background-color: blue;
+    }
+} */

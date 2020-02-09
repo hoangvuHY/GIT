@@ -1,0 +1,39 @@
+*{
+    
+}
+
+@font-face{
+    src: url(victoria.ttf);
+    font-family: victoria;
+}
+
+body{
+    font-family: victoria;
+}
+
+a.linkkhac {
+    text-decoration: none;
+    display: block;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+
+a.tieude {
+    font-size: 21px;
+    color: #414141;
+    font-weight: bold;
+    font-family: arial;
+    text-decoration: none;
+}
+article._1tiin{
+    width: 620px;
+    height: 220px;
+}
+img{
+    float: left;
+    margin-right:20px;
+
+}
