@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 .tren{
     width: 700px;
     height: 40px;
@@ -9,6 +10,7 @@
     margin: 10px 0 0 50px;
     display: inline-block;
 }
+
 .tdto{
     font-family: tahoma;
     color: #EC3D79;
@@ -20,6 +22,7 @@
     background-position: bottom center;
     padding-bottom: 13px;
 }
+
 .xt {
     text-decoration: none;
     color: #B0A39C;
@@ -27,12 +30,105 @@
     margin-top: 15px;
     margin-left: 255px;
 }
+
 .xt i{
     font-size: 13px;
 }
+
 .xt:hover i{
     font-size: 13px;
     color: lightgreen;
     padding-left: 5px;
     transition: 0.4s;
+}
+
+.icon{
+    width: 700px;
+    height: 90px;
+    text-align: center;
+    margin: 10px 0 0 50px;
+    
+}
+
+._1icon{
+   width: 50px;
+   height: 70px;
+   display: inline-block;
+}
+
+._1icon .chuaicon{
+    width: 33px;
+    height: 50px;
+    display: inline-block;
+    background-image: url('site-icons.png');
+    background-position: -36px -506px;
+}
+
+
+._1icon:hover .chuaicon{
+    background-position: -36px -417px;
+}
+
+.linkicon{
+    text-decoration: none;
+    font-family: tahoma;
+    font-size: 12px;
+    color: gray;
+}
+
+._1icon:hover .linkicon{
+    color: lightblue;
+}
+
+.so2 a.chuaicon{
+    background-position: 33px -506px;
+}
+.so2:hover a.chuaicon{
+    background-position: 33px -506px;
+}
+/* Css Cho khoi 3tin */
+._3tin{
+    width: 700px;
+    height: 350px;
+    margin: 10px 0 0 50px;
+}
+/* Khoi 1 tin */
+._1tin{
+    width: 220px;
+    height: 290px;
+    margin-right: 20px;
+    float: left;
+}
+/* Cach  1 (it dung)*/
+
+/* .cuoicung{
+    margin-right: 0px;
+} */
+
+/* Cach 2 (Dung nhieu) */
+._1tin:nth-child(3){
+    margin-right: 0;
+}
+
+._1tin img{
+    width: 220px;
+}
+._1tin a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: tahoma;
+    font-size: 14px;
+    color: black;
+    display: block;
+    padding: 7px 0;
+}
+._1tin p{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+    font-size: 13px;
+    color: gray;
+}
+.motkhoimarry{
+    overflow: hidden;
 }

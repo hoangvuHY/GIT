@@ -9,7 +9,7 @@ Dog.prototype.eat = function (cat) {
     this.stomach.push(cat);
 }
 Dog.prototype.sayHi = function(){
-    console.log('Hi! You is dog. My name is ' + chalk.blue(this.name));
+    console.log('Hi! I am cat. My name is ' + chalk.blue(this.name));
 }
 
 module.exports = Dog;

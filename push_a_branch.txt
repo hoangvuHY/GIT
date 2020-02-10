@@ -1,0 +1,39 @@
+Pull request
+1. git checkout -b < feature_branch >
+2. git push origin < branch >
+3. create a pull request on Github
+4. Review code
+    4.1: Review code online (Github)
+    4.2: Fetch branch into local to test offline (Opitional)
+    4.3: Approve the pull request
+
+5. Merge to master
+
+Nháp
+Bước 1,2
+git checkout
+git checkout -b feature/house-class
+Tạo file mới tên Hourse.js
+fucntion House(){
+
+}
+git status
+git add .
+git push origin feature/house-class
+git commit -m 'Add Houre.js'
+Người A làm đến đây
+
+Người B vào github và vào branch 
+
+Bước 3.
+Người A
+Vào branch trên github và bấm vào branch vừa tạo rồi bấm new pull request
+
+Người B 
+Vào github bấm Pull request
+
+Sau khi xong sẽ vẫn phần Pull request người A sẽ merge 2 code lại
+
+Hướng dẫn phần 4.2
+
+Giả sử đang ở trong 1 branch nào đó. Check bằng 'git branch'
