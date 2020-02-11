@@ -1,0 +1,31 @@
+1. Contribute to a open-sourced project
+
+Fork: Tạo ra 1 phiên bản coppy trên Github
+
+Sau đó chỉnh sửa và yêu cầu để có thể làm code mình vào code họ
+
+2. README.md (markdown)
+
+Learn markdown
+google
+markdown cheatsheet
+markdown editor
+
+3. Issue tracking : Kiểm soát lỗi trên project
+
+4. Trending on Github : Repostory được đánh giá cao
+
+5. Oh my  zsh
+
+6. GUI tools (Graphic User Interface)
+gg: Git GUI clients
+- SourceTree
+- Git Kraken
+- Github desktop
+
+7. Learn more about Github
+
+atlassian/tutorial
+rogerdudler.githhub.io
+
+

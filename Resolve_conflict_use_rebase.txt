@@ -1,0 +1,72 @@
+Resolve conflicts
+When will conflicts happen?
+    1. Changing the same file + same line
+    2. Deleted file X, B modifiled file X
+
+Method 1:
+    1. Using 'git rebase'
+    2. Resolve conflicts
+    3. Push again with -f
+
+Method 2:
+    1. Merge updated master to feature branch (3-way Merge)
+    2. Resolve conflicts
+    3. Commit and push
+
+Method 1
+Giả sử
+Bên A tạo ra 1 nhánh để code và sửa file
+Cho vào nhánh đó
+Bên B cũng tạo ra 1 nhánh và cùng sửa ở 1 file với bên A
+
+Rebase 
+Người A phải ở branch cần rebase. Cần rebase vào master
+
+gõ lệnh
+git rebase master
+Sửa code
+gõ lệnh
+git status
+git add .
+git rebase --continue
+
+git push origin + tên nhánh + -f
+
+Method 2
+google: Merge vs Rebasing (Bitbuket)
+
+Giả sử 
+Người A tạo một nhánh và sửa 1 file
+
+commit nó lên git{
+    git add .
+    git commit -m ' ... '
+    git push origin + tên nhánh
+}
+ 
+Người B
+git pull
+Tạo ra 1 branch mới giống A
+Sửa 1 file cùng 1 vị trí
+
+
+commit nó lên git{
+    git add .
+    git commit -m ' ... '
+    git push origin + tên nhánh
+}
+- Lên github vào commit và tạo pull request
+
+Người A Checkout master và pull về để có commit của bên  kia
+
+Lại quay lại branch cũ của người A
+Sau đó gõ 
+git merge master
+Resolve trên code (Sửa lại trên code)
+commit nó lên git{
+    git add .
+    git commit -m ' ... '
+    git push origin + tên nhánh
+}
+
+
