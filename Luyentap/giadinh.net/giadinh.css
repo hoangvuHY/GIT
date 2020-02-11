@@ -1,91 +1,32 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
 
-.giadinh {
-    width: 425px;
-    height: 500px;
+.tren {
+}
+
+.tren {}
+.tinanh{
+    width: 790px;
+    height: 430px;
+}
+
+.tinanh {
     margin: auto;
-    overflow: hidden;
-    margin-top: 50px;
+    margin-top: 20px;
 }
-
-.tieude {
-    border-top: 3px solid #DF4D64;
-    text-align: center;
-    padding-top: 17px;
-}
-
-.tieude a {
+.tren a{
     text-decoration: none;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
-    font-size: 25px;
-    text-transform: uppercase;
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: bold;
     position: relative;
-    top: 19px;
+    top: 13px;
     background-color: white;
     padding: 0 20px;
+    margin-left: 31px;
 }
-
-.vien {
-    border-top: 1px solid lightblue;
-    border-bottom: 3px solid violet;
-    height: 3px;
-}
-
-.tin {
-    margin-top: 20px;
-    width: 425px;
-    height: 160px;
-}
-
-.tin img {
-    float: left;
-    margin-right: 13px;
-    border: 1px solid #b9adad;
-    padding: 2px;
-    box-shadow: 3px 3px 4px #b9adad;
-}
-
-.tdtin {
-    text-decoration: none;
-    color: black;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 20px;
-    display: block;
-    margin-bottom: 10px;
-}
-
-.tin p {
-    width: 220px;
-    float: left;
-    font-size: 14px;
-    font-family: serif;
-    color: #655f5f;
-}
-
-.dstin {}
-
-
-.dstin ul li {
-    border-bottom: 1px dotted lightblue;
-    padding: 10px 0;
-    list-style: none;
-}
-.dstin ul li a{
-    text-decoration: none;
-    font-size: 13.5px;
-    font-family: tahoma;
-    color: black;
-}
-.dstin i {
-    font-size: 5px;
-    padding-right: 7px;
-    position: relative;
-    top: -4px;
-    color: #DD6485;
+.vien{
+    border: 3px solid lightblue;
 }

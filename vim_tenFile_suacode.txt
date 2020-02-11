@@ -1,0 +1,3 @@
+vim + tên file muốn sửa: Sửa trực tiếp code trên GIT
+Muốn thoát dùng lệnh: ' :q '
+

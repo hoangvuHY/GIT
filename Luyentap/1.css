@@ -1,39 +1,49 @@
 *{
-    
+    margin: 0;
+    padding: 0;
 }
 
-@font-face{
-    src: url(victoria.ttf);
-    font-family: victoria;
+
+
+.tinanh{
+    width: 790px;
+    height: 430px;
+    margin: auto;
+    margin-top: 20px;
 }
 
-body{
-    font-family: victoria;
-}
 
-a.linkkhac {
+.tren a{
     text-decoration: none;
-    display: block;
-    font-family: arial;
+    font-family: tahoma;
     font-size: 20px;
     font-weight: bold;
-    padding-bottom: 10px;
+    position: relative;
+    top: 13px;
+    background-color: white;
+    padding: 0 20px;
+    margin-left: 31px;
 }
-
-
-a.tieude {
-    font-size: 21px;
-    color: #414141;
-    font-weight: bold;
-    font-family: arial;
-    text-decoration: none;
+.vien{
+    border: 3px solid lightblue;
 }
-article._1tiin{
-    width: 620px;
-    height: 220px;
-}
-img{
+.tinduoi{
     float: left;
-    margin-right:20px;
-
+    width: 190px;
+    height: 230px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.tinduoi img{
+    width: 190px;
+}
+.tinduoi .tieude{
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 14px;
+    font-weight: bold;
+    color: lightslategray;
+}
+.tinduoi:nth-child(4n){
+    margin-right: 0;
 }

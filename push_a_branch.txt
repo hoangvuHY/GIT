@@ -37,3 +37,10 @@ Sau khi xong sẽ vẫn phần Pull request người A sẽ merge 2 code lại
 Hướng dẫn phần 4.2
 
 Giả sử đang ở trong 1 branch nào đó. Check bằng 'git branch'
+
+Bên B muốn pull về máy để test thì làm như sau 
+git remote -v: Để check
+git fetch origin + tên branch
+git checkout + tên branch: Để vào branch đó 
+
+Bên B vào phần commit nhấn Approve  để bên A merge
